@@ -6,13 +6,13 @@ The following equations will help us to design our state matrix (phi) :
 x = x0 + ẋ ∗ dt
 y = y0 + ẏ ∗ dt
 
-Xo = [ xogps ẋo 𝑦𝑜𝑔𝑝𝑠 ẏo ]
+Xo = [ x_o_gps ẋ_o 𝑦_𝑜_𝑔𝑝𝑠 ẏ_o ]
 For ẋo and ẏo we could make line fit and get them from gps
 
 
 Here we design our Conversion matrix so it correspondence to the reading from both sensors
 Linear acceleration sensor (after double integrating it to get position) and GPs
-Z = [ xgps xacc ygps yacc]
+Z = [ x_gps x_acc y_gps y_acc]
 
 
 For measurement noise I consider the gps to have error of 5 meters and linear acceleration sensor 
