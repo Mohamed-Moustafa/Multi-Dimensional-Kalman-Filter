@@ -6,7 +6,7 @@ The following equations will help us to design our state matrix (phi) :
 x = x0 + ẋ ∗ dt
 y = y0 + ẏ ∗ dt
 
-Xo = [ x_o^gps ẋo 𝑦𝑜𝑔𝑝𝑠 ẏo ]
+Xo = [ $x_o^gps$ ẋo 𝑦𝑜𝑔𝑝𝑠 ẏo ]
 For ẋo and ẏo we could make line fit and get them from gps
 
 
